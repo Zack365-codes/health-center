@@ -1,0 +1,344 @@
+/* ======================================================
+   ROOT VARIABLES
+====================================================== */
+:root {
+    --green-color: #a5c422;
+    --para-color: rgb(117, 117, 117);
+}
+
+/* ======================================================
+   GLOBAL STYLES
+====================================================== */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: var(--para-color);
+    margin-bottom: 0;
+}
+
+/* ======================================================
+   HOVER EFFECTS
+====================================================== */
+.hover a:hover {
+    background-color: #337ab7 !important;
+    color: white;
+    transition: all ease .5s;
+}
+
+/* ======================================================
+   TOP NAVIGATION
+====================================================== */
+.top-nav i {
+    color: var(--green-color);
+}
+
+.phone {
+    width: fit-content;
+}
+
+.time {
+    width: fit-content;
+}
+
+.gmail {
+    width: fit-content;
+}
+
+.padding-top {
+    padding-top: 13px;
+}
+
+/* ======================================================
+   NAVBAR
+====================================================== */
+.navbar-brand h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(57, 57, 57);
+}
+
+.nav-item a {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.right {
+    font-size: 12px;
+}
+
+.margin-right {
+    margin-right: 30%;
+}
+
+/* ======================================================
+   BUTTONS
+====================================================== */
+.anchor-btn a {
+    background-color: var(--green-color);
+    padding: 13px 20px;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    width: max-content;
+}
+
+.btn-primary {
+    background-color: var(--green-color) !important;
+    border-color: var(--green-color) !important;
+}
+
+.btn-primary:hover {
+    background-color: white !important;
+    border-color: white !important;
+    color: black;
+    transform: translateY(-10px);
+    transition: all ease .5s;
+}
+
+.fifth-button a {
+    background-color: var(--green-color);
+    color: white;
+    font-weight: 600;
+}
+
+.fifth-button a:hover {
+    background-color: rgb(30, 30, 30);
+    transition: all ease .8s;
+}
+
+.btn-success {
+    background-color: var(--green-color);
+    border: none;
+}
+
+/* ======================================================
+   TEAM SECTION
+====================================================== */
+#team {
+    padding: 150px 40px;
+    background-color: rgb(246, 246, 246);
+}
+
+#team {
+    background: url(../images/about-bg.jpg) no-repeat top center;
+}
+
+#team {
+    background: url(../images/about-bg.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+/* ======================================================
+   CONTENT
+====================================================== */
+.content {
+    width: fit-content;
+}
+
+.content h2 {
+    width: fit-content;
+    font-size: 40px;
+}
+
+.content p {
+    width: fit-content;
+}
+
+.left-side {
+    width: fit-content;
+}
+
+/* ======================================================
+   CAROUSEL
+====================================================== */
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+}
+
+.carousel-caption button {
+    padding: 10px 20px;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ======================================================
+   RESPONSIVE TYPOGRAPHY
+====================================================== */
+@media (max-width: 768px) {
+    h5 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    h5 {
+        font-size: 28px;
+    }
+}
+
+.col-12 h2 {
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    .col-12 h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-12 h2 {
+        font-size: 28px;
+    }
+}
+
+/* ======================================================
+   TEAM CARDS
+====================================================== */
+.profile img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.card-body {
+    background-color: #f9f9f9 !important;
+}
+
+.card-bottom i,
+.mail i {
+    color: var(--para-color);
+}
+
+/* ======================================================
+   SOCIAL ICON ANIMATION
+====================================================== */
+.hidden-div {
+    opacity: 0;
+}
+
+.hidden-div i {
+    font-size: 22px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.card:hover .hidden-div {
+    opacity: 1;
+    transform: translateY(-300px);
+    transition: all ease .7s;
+}
+
+/* ======================================================
+   LATEST NEWS SECTION
+====================================================== */
+#latest-news {
+    background-color: rgb(249, 249, 249);
+    padding: 100px 20px;
+}
+
+.bottom-card {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.bottom-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* ======================================================
+   APPOINTMENT SECTION
+====================================================== */
+#appointment {
+    padding: 100px 20px;
+}
+
+#appointment .left-side img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+form h2 {
+    font-size: 40px;
+}
+
+@media (max-width: 576px) {
+    form h2 {
+        font-size: 28px;
+    }
+}
+
+/* ======================================================
+   INFORMATION SECTION
+====================================================== */
+#info {
+    padding: 100px 20px;
+}
+
+.icons i {
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+    background-color: rgb(57, 57, 57);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first img,
+.second img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.end-icon i {
+    font-size: 17px;
+}
+
+/* ======================================================
+   FOOTER
+====================================================== */
+footer {
+    padding: 35px 20px;
+}
+
+.padding-y-axis {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.footer-name{
+    color: var(--green-color);
+    font-weight: 500;
+}
+
+/* ======================================================
+   ANIMATIOIN
+====================================================== */
