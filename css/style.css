@@ -337,8 +337,17 @@ footer {
 .footer-name{
     color: var(--green-color);
     font-weight: 500;
+    animation: up-down alternate-reverse ease infinite;
 }
 
 /* ======================================================
    ANIMATIOIN
 ====================================================== */
+@keyframes up-down {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(50px);
+    }
+}
